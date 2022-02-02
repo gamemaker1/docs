@@ -97,10 +97,11 @@ the current website). Clicking this button will bring up a Markdown editor which
 can be used to edit the page.
 
 Once the user has finished making changes, they can click a `Propose Changes`
-button that will take them to `fork and propose changes` page on the
-`beckn/developer-docs` repository. Note that this will need them to sign in with
-their GitHub account. The user can then create a pull request on the
-`beckn/developer-docs` repository.
+button that will copy the edited content to clipboard, take them to 
+`fork and propose changes` page on the `beckn/developer-docs` repository and
+tell them to paste it once they click on the button. Note that this will need
+them to sign in with their GitHub account. The user can then create a pull
+request on the `beckn/developer-docs` repository.
 
 A GitHub action (https://github.com/enriikke/gatsby-gh-pages-action) will
 automatically re-deploy the Gatsby website on a push/merge to the `main` branch
