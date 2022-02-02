@@ -97,9 +97,11 @@ the current website). Clicking this button will bring up a Markdown editor which
 can be used to edit the page.
 
 Once the user has finished making changes, they can click a `Propose Changes`
-button that will copy the edited content to clipboard, take them to 
-`fork and propose changes` page (redirect to the URL: https://github.com/beckn/developer-docs/edit/main/content/{path-to-file}.md; an example of the UI the user will see - https://github.com/beckn/developer-docs/edit/master/README.md) on the `beckn/developer-docs` repository and
-tell them to paste it once they click on the button. Note that this will need
+button that will copy the edited content to clipboard and tell them to paste it
+on the `Propose Changes` page. This is simply a redirect to the GitHub page edit URL
+`https://github.com/beckn/developer-docs/edit/main/content/{path-to-file}.md`.
+Here is an example of what the user will see once they have been redirected -
+https://github.com/beckn/developer-docs/edit/master/README.md). Note that this will need
 them to sign in with their GitHub account. The user can then create a pull
 request on the `beckn/developer-docs` repository.
 
